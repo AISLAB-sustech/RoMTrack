@@ -18,12 +18,18 @@ function changeImages(event, bgImage, fgImage) {
   document.querySelector('.slider-line').style.left = `calc(50%)`;
 }
 
-
-
-$("#slider").on("input change", (e)=>{
+// 替换 jQuery 的 slider 事件监听为原生 JavaScript
+const slider = document.getElementById('slider');
+slider.addEventListener('input', (e) => {
   const sliderPos = e.target.value;
-  // 用clip-path裁切前景图片
-  $('.foreground-img img').css('clip-path', `inset(0 ${100-sliderPos}% 0 0)`);
-  $('.slider-button').css('left', `calc(${sliderPos}% - 25px)`);
-  $('.slider-line').css('left', `calc(${sliderPos}% )`);
+
+  // 用 clip-path 裁切前景图片
+  const foregroundImg = document.querySelector('.foreground-img img');
+  foregroundImg.style.clipPath = `inset(0 ${100 - sliderPos}% 0 0)`;
+
+  // 更新 slider 按钮和分割线的位置
+  const sliderButton = document.querySelector('.slider-button');
+  const sliderLine = document.querySelector('.slider-line');
+  sliderButton.style.left = `calc(${sliderPos}% - 25px)`;
+  sliderLine.style.left = `calc(${sliderPos}%)`;
 });
