@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,612 +17,601 @@
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
-
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-  <!-- Preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
 
   <!-- TODO: Replace with your paper title and authors -->
   <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-
-  <!-- Favicon and App Icons -->
-  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="preload" href="./static/js/image-comparison.js" as="script">
 
   <!-- Critical CSS - Load synchronously -->
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  <link rel="stylesheet" href="static/css/image-comparison.css">
-  <link rel="stylesheet" href="static/css/model-viewer.css">
+  <link rel="stylesheet" href="./static/css/image-comparison.css">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
 
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
+  <!-- <link rel="preload" href="./static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+  <link rel="preload" href="./static/css/image-comparison.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="./static/css/bulma-slider.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="./static/css/fontawesome.all.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 
   <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- 需要网络加载，已经切换为本地加载inter.css -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="static/css/inter.css">
 
   <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
-  <script defer src="static/js/index.js"></script>
+  <!-- 需要网络加载，已经切换为本地加载jquery.min.js -->
+  <script defer src="./static/js/image-comparison.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script defer src="./static/js/bulma-slider.min.js"></script>
+  <script defer src="./static/js/index.js"></script>
 
-  <!--load model viewer google-->
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
-
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
 </head>
+
 <body>
 
 
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
-
   <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <!-- TODO: Replace with your paper title -->
+              <h1 class="title is-1 publication-title">RoMTrack: Robust Humanoid Motion Tracking and Fall Recovery via
+                Probabilistic Termination </h1>
+              <div class="is-size-5 publication-authors">
+                <!-- TODO: Replace with your paper authors and their personal links -->
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                  <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhijie Liu</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Xiao Ren</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yuhui Yang</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Zongbiao Weng</a><sup>*</sup>
+                </span>
+              </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+              <div class="is-size-5 publication-authors">
+                <!-- TODO: Replace with your institution and conference/journal info -->
+                <span class="author-block">Institution Name<br>Conference name and year</span>
+                <!-- TODO: Remove this line if no equal contribution -->
+                <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+              </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- TODO: Update with your arXiv paper ID -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Paper</span>
                     </a>
-                  </span> -->
+                  </span>
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+
+                  <!-- TODO: Update with your arXiv paper ID -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <!-- TODO: Replace with your paper abstract -->
+              <p>
+                Robust motion tracking and recovery from disturbances and falls remain challenging problems in humanoid
+                motion control under highly dynamic motions and strong external perturbations.
+                Existing reinforcement learning-based motion tracking methods often terminate training episodes
+                immediately after severe tracking failures, limiting recovery-oriented exploration in unstable or fallen
+                states.
+                As a result, policies often struggle to recover tracking after strong disturbances or a complete loss of
+                balance.
+                To address these issues, we propose RoMTrack, a robust humanoid motion-tracking framework with
+                disturbance and fall-recovery capabilities.
+                The framework employs an asymmetric Actor-Critic architecture during training to utilize privileged
+                information from the simulation environment, while relying only on proprioceptive observations and
+                reference motion features during deployment.
+                Specifically, RoMTrack consists of three components.
+                First, a yaw-aligned tracking representation is introduced to reduce sensitivity to global drift and
+                heading disturbances while preserving gravity-related balance information.
+                Second, we introduce a Bernoulli-based probabilistic termination mechanism that preserves interaction in
+                unstable and fallen states, enabling the policy to explore both disturbance recovery and fall recovery
+                behaviors after severe tracking failures.
+                Finally, we propose a tracking-error-driven adaptive sampling strategy dynamically reshapes the sampling
+                distribution based on online tracking performance, increasing the training frequency for difficult
+                tracking segments and unstable recovery states.
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+    </section>
+    <!-- End paper abstract -->
 
-
-
-<!-- Paper Method -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Method</h2>
-        <!-- 新增图片容器，图片在文字上方 -->
-        <div class="method-image-container" style="margin-bottom: 24px;">
-          <img src="static/images/carousel1.jpg" alt="Method Illustration" style="max-width:100%;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.10);" />
-        </div>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper method -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper Method -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3" style="text-align: center;">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-             
-            <iframe src="https://player.bilibili.com/player.html?bvid=BV14yhCzcEw3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!-- Paper Method -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Method</h2>
+            <!-- 新增图片容器，图片在文字上方 -->
+            <div class="method-image-container" style="margin-bottom: 24px;">
+              <img src="./static/images/framework.jpg" alt="Method Illustration"
+                style="max-width:100%;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.10);" />
+            </div>
+            <div class="content has-text-justified">
+              <p>
+                Overview: Motion-capture data are first retargeted into reference motions. The policy is
+                then trained with a yaw-aligned representation, an asymmetric actor--critic architecture,
+                tracking-error-based adaptive sampling, and probabilistic termination. The learned policy is finally
+                deployed on the real robot for highly dynamic motion tracking and recovery from unstable states.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
+    </section>
+    <!-- End paper Method -->
+
+    <!-- 引入MathJax库用于渲染LaTeX公式 -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+      // 配置MathJax以识别和渲染公式
+      MathJax = {
+        tex: {
+          inlineMath: [['\\(', '\\)']],  // 行内公式使用\( \)包裹
+          displayMath: [['\\[', '\\]']], // 块级公式使用\[ \]包裹
+          processEscapes: true
+        },
+        startup: {
+          pageReady: function () {
+            return MathJax.startup.defaultPageReady().then(function () {
+              // 渲染完成后的回调，可以留空
+            });
+          }
+        }
+      };
+    </script>
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3" style="text-align: center;">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
+    <!-- image Comparison -->
+    <!-- Quantitative Results Section-->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 mb-8">Quantitative Results</h2>
 
+            <div class="method-image-container mb-10">
+              <img src="./static/images/cmp_across.png" alt="Quantitative Results Table 1 (DTU Dataset)"
+                style="max-width:100%; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.10);" />
+            </div>
 
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3" style="text-align: center;">Poster</h2>
+            <!-- 支持LaTeX公式的说明文字 -->
+            <div class="content has-text-justified mb-12">
+              <p>
+                For $\Delta \text{acc}$, RoMTrack achieves a score of $17.09$, which is lower than HoloMotion,
+                Any2Track, and From-scratch RL, and is close to BFM-Zero.
+                Although BFM-Zero achieves a slightly lower $\Delta \text{acc}$ value, its MPBPE, MPJPE, and MPJVE are
+                substantially higher than those of RoMTrack.
+                Considering these metrics together, RoMTrack achieves relatively low tracking errors on the complete
+                LAFAN1 dataset while maintaining stable and smooth dynamic motion performance.
+              </p>
+            </div>
 
-      <h2 class="title">Poster</h2>
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
+            <div class="method-image-container mb-10">
+              <img src="./static/images/cmp_stdrt_line.png" alt="Quantitative Results Table 2 (Mip-NeRF360 Dataset)"
+                style="max-width:100%; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.10);" />
+            </div>
 
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!-- image Comparison -->
-<section class="hero is-small is-light" id="image-comparison">
-  <div class="hero-body">
-    <div class="container">
-      <!-- 添加大标题 -->
-      <h2 class="title is-3" style="text-align: center;">Comparisons</h2>
-      <h3 class="title is-4 has-text-weight-bold">DTU</h3>      <!-- 按钮组 -->
-      <div class="cmp-button-group">
-        <button onclick="changeImages(event, 'static/images/carousel1.jpg', 'static/images/carousel1.jpg')" class="cmp-button cmp-btn-checked">scan_37</button>
-        <button onclick="changeImages(event, 'static/images/carousel2.jpg', 'static/images/carousel1.jpg')" class="cmp-button">scan_38</button>
-        <button onclick="changeImages(event, 'static/images/carousel2.jpg', 'static/images/carousel3.jpg')" class="cmp-button">scan_39</button>
-        <button onclick="changeImages(event, 'static/images/carousel2.jpg', 'static/images/carousel3.jpg')" class="cmp-button">scan_40</button>
-      </div>
-
-      <!-- TODO: Replace with your Comparison images -->
-      <div class="image-comparison-wrapper" style="position:relative; width:120%; max-width:1280px; height:640px; margin:auto;">
-        <div class="img background-img">
-          <img src="static/images/carousel1.jpg" class="comparison-img" draggable="false">
-        </div>
-        <div class="img foreground-img">
-          <img src="static/images/carousel2.jpg" class="comparison-img" draggable="false" style="clip-path: inset(0 50% 0 0);">
-        </div>
-        <input type="range" min="0" max="100" value="50" class="slider" name='slider' id="slider">
-        <div class="slider-line"></div>
-        <div class='slider-button'></div>
-      </div>
-    </div>
-    <script defer src="static/js/image-comparison.js"></script>
-  </section>
-<!--End image Comparison -->
-
-<!-- 3D model exhibition -->
-<section class="hero is-small is-light" id="model-exhibition">
-  <div class="hero-body">
-    <h2 class="title is-3" style="text-align: center;">3D model exhibition</h2>
-    <div class="container blog main large gray_linear">
-      <div class="gso30_3d">
-        <!-- 第一个模型 -->
-        <div class="one-class">
-          <p class="caption inline center">PointE</p>
-          <model-viewer
-            src="static/models/point_cloud.glb"
-            camera-controls
-            auto-rotate
-            shadow-intensity="1"
-            exposure="1"
-            style="width:100%;height:300px;"
-          ></model-viewer>
-        </div>
-        <!-- 第二个模型 -->
-        <div class="one-class">
-          <p class="caption inline center">ShapeE</p>
-          <model-viewer
-            src="static/models/point_cloud.glb"
-            camera-controls
-            auto-rotate
-            shadow-intensity="1"
-            exposure="1"
-            style="width:100%;height:300px;"
-          ></model-viewer>
-        </div>
-        <!-- 第三个模型 -->
-        <div class="one-class">
-          <p class="caption inline center">One2345-XL</p>
-          <model-viewer
-            src="static/models/point_cloud.glb"
-            camera-controls
-            auto-rotate
-            shadow-intensity="1"
-            exposure="1"
-            style="width:100%;height:300px;"
-          ></model-viewer>
+            <!-- 支持LaTeX公式的说明文字 -->
+            <div class="content has-text-justified">
+              <p>
+                Ablation results of the probabilistic termination mechanism. Under a strong external perturbation of 5
+                m/s, the recovery success rate and the average number of recovery steps of Ours and w/o PT are compared
+                under recovery thresholds of 0.15 m and 0.25 m. The box plot on the right summarizes the distribution of
+                the final-stage results. Ours achieves higher recovery success rates and requires fewer recovery steps
+                under both recovery thresholds.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End 3D model exhibition -->
+    </section>
+    <!-- End Quantitative Results Section -->
 
+    <!-- 引入MathJax库（用于渲染LaTeX公式） -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- 配置MathJax：支持在段落中直接使用$...$包裹LaTeX公式 -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']] // 启用$...$作为行内公式分隔符
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <!-- End Quantitative Results Section -->
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
+    <!--Real world deploy demo-->
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <!-- 标题保持居中 -->
+        <h2 class="title is-3 has-text-centered mb-6">Real-World deploy demos</h2>
+
+        <!-- 视频网格容器：recovery单独一行，其余两列 -->
+        <div class="columns is-multiline is-mobile">
+          <!-- Recovery 视频（单独一行） -->
+          <div class="column is-12 mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/Reconvery2_1.jpeg" id="video-rw-27" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/Reconvery2_1.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+            <p class="subtitle is-8 has-text-centered mt-2 has-text-weight-bold">Recovery while tracking</p>
+          </div>
+
+          <!-- 第1个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/1.jpeg" id="video-rw-1" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/1.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第2个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/2.jpeg" id="video-rw-2" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/2.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+            <p class="subtitle is-6 has-text-centered mt-2">Simple tracking, LAFAN1</p>
+          </div>
+
+          <!-- 第4个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/4.jpeg" id="video-rw-4" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/4.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第5个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/5.jpeg" id="video-rw-5" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/5.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第6个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/6.jpeg" id="video-rw-6" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/6.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第7个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/7.jpeg" id="video-rw-7" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/7.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第8个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/8.jpeg" id="video-rw-8" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/8.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第9个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/9.jpeg" id="video-rw-9" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/9.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第10个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/10.jpeg" id="video-rw-10" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/10.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第11个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/11.jpeg" id="video-rw-11" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/11.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第12个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/12.jpeg" id="video-rw-12" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/12.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第13个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/13.jpeg" id="video-rw-13" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/13.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第14个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/14.jpeg" id="video-rw-14" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/14.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第15个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/15.jpeg" id="video-rw-15" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/15.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第16个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/16.jpeg" id="video-rw-16" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/16.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第17个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/17.jpeg" id="video-rw-17" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/17.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第18个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/18.jpeg" id="video-rw-18" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/18.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第19个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/19.jpeg" id="video-rw-19" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/19.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第20个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/20.jpeg" id="video-rw-20" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/20.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第21个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/21.jpeg" id="video-rw-21" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/21.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第22个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/22.jpeg" id="video-rw-22" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/22.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第23个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/23.jpeg" id="video-rw-23" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/23.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第24个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/24.jpeg" id="video-rw-24" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/24.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第25个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/25.jpeg" id="video-rw-25" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/25.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+
+          <!-- 第26个视频 -->
+          <div class="column is-6-widescreen is-6-tablet is-full-mobile mb-4">
+            <div class="video-container" style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+              <video poster="./static/videos/26.jpeg" id="video-rw-26" controls muted preload="metadata"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="./static/videos/26.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放，请更新浏览器版本。
+              </video>
+            </div>
+          </div>
+        </div>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
+    </section>           
+    <!-- End teaser video -->
+    
+
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@article{YourPaperKey2024,
   title={Your Paper Title Here},
   author={First Author and Second Author and Third Author},
   journal={Conference/Journal Name},
   year={2024},
   url={https://your-domain.com/your-project-page}
 }</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
+      </div>
+    </section>
+    <!--End BibTex citation -->
 
+    <!-- 
+<footer class="footer">
+<div class="container">
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <div class="content">
 
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+        <p>
+          This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+          Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
       </div>
     </div>
   </div>
-</footer>
+</div>
+</footer> -->
 
-<!-- Statcounter tracking code -->
 
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+</body>
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</html>
